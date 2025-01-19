@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro",Helvetica,sans-serif;
+    font-weight: 300;
+}
+body{
+    background-image: linear-gradient(45deg , #e06954, #642ebb);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    max-width: 1200px; 
+    align-items: center;
+}
+header{
+    padding: 120px 2px;
+    gap:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+header h1{
+    font-weight: 300;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+header p{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.65);
+    font-size: 1.25em;
+    letter-spacing: -0.025em;
+    margin: auto;
+    justify-content: center;
+    width: 35%;
+
+
+}
+#section1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px 4px 0 0;
+}
+#section1 ul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+    background-color: rgba(222, 222, 222, 0.25);
+    height: 75px;
+    color:RGB(99, 99, 99);
+    list-style-type: none;
+    line-height: 75px;
+    font-size: 16.8px;
+
+}
+/* li.active{
+    background-color: rgb(255, 255, 255);
+    height:50%;
+    margin: auto 0;
+    align-items: center;
+
+
+    border-radius: 4px 4px 4px 4px;
+} */
+
+.section1-content{
+    display: flex;
+    flex-direction: row-reverse;
+margin: 35px;
+    gap: 50px;
+    padding: 50px;
+}
+.section1-content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+.section1-content-left h1{
+    color:rgb(99,99,99);
+    font-size: 30px;
+    
+}
+
+.line1{
+    width: 130px;
+    height: 1.5px;
+    background-image:linear-gradient(45deg , #e0695472, #642ebb98,rgba(96, 96, 249, 0.634)) ;
+
+}
+.section1-content-left p{
+    color:rgb(99,99,99);
+    font-size: 1.2em;
+    letter-spacing: -0.025em;
+   line-height: 1.8;
+    width: 95%;
+}
+.section1-content-left a{
+    color:rgb(99,99,99);
+    font-size: 1.2em;
+    letter-spacing: -0.025em;
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    border: rgba(99, 99, 99, 0.425) solid 1px;
+    text-align: center;
+    line-height: 50px;
+}
+.section1-content span{
+    border: rgba(99, 99, 99, 0.425) solid 1px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.section1-content img{
+display: block;
+border: rgba(99, 99, 99, 0) solid 1px;
+border-radius: 50%;
+
+
+}
