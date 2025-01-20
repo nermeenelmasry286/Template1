@@ -46,11 +46,12 @@ header p{
 
 
 }
-#section1{
+#intro{
     background-color: rgb(255, 255, 255);
     border-radius: 4px 4px 0 0;
+    border-bottom:1px solid rgba(99, 99, 99, 0.681)  ;
 }
-#section1 ul{
+#intro ul{
     display: flex;
     justify-content: center;
     gap: 60px;
@@ -73,20 +74,20 @@ header p{
     border-radius: 4px 4px 4px 4px;
 } */
 
-.section1-content{
+.intro-content{
     display: flex;
     flex-direction: row-reverse;
 margin: 35px;
     gap: 50px;
     padding: 50px;
 }
-.section1-content-left{
+.intro-content-left{
     display: flex;
     flex-direction: column;
     gap: 35px;
 
 }
-.section1-content-left h1{
+.intro-content-left h1{
     color:rgb(99,99,99);
     font-size: 30px;
     
@@ -98,14 +99,14 @@ margin: 35px;
     background-image:linear-gradient(45deg , #e0695472, #642ebb98,rgba(96, 96, 249, 0.634)) ;
 
 }
-.section1-content-left p{
+.intro-content-left p{
     color:rgb(99,99,99);
     font-size: 1.2em;
     letter-spacing: -0.025em;
    line-height: 1.8;
     width: 95%;
 }
-.section1-content-left a{
+.intro-content-left a{
     color:rgb(99,99,99);
     font-size: 1.2em;
     letter-spacing: -0.025em;
@@ -117,15 +118,186 @@ margin: 35px;
     text-align: center;
     line-height: 50px;
 }
-.section1-content span{
+.intro-content span{
     border: rgba(99, 99, 99, 0.425) solid 1px;
     border-radius: 50%;
     padding: 10px;
 }
-.section1-content img{
+.intro-content img{
 display: block;
 border: rgba(99, 99, 99, 0) solid 1px;
 border-radius: 50%;
 
 
 }
+.icons-section {
+    
+    border-bottom:1px solid rgba(99, 99, 99, 0.681)  ;
+    padding: 80px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .icons-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+   
+  }
+  
+  .icon-box {
+    
+    
+    
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    
+
+  }
+  
+
+
+  
+  .icon {
+    font-size: 50px;
+    color: #ff6f61;
+    margin-bottom: 15px;
+  }
+  
+  .icon-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .icon-box p {
+    font-size: 1em;
+    color: #777;
+    line-height: 1.5;
+  }
+  .icons-section a{
+    display:inline-block;
+    color:rgb(99,99,99);
+    font-size: 1.2em;
+    letter-spacing: -0.025em;
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    border: rgba(99, 99, 99, 0.425) solid 1px;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  /* Styling the container */
+#stats-section {
+    background-color: #ffffff;
+    padding: 90px 20px;
+    text-align: center;
+    border-bottom:1px solid rgba(99, 99, 99, 0.681)  ;
+}
+
+#stats-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#stats-section .divider {
+    width: 160px;
+    height: 2px;
+    margin: 0 auto 20px;
+    background: linear-gradient(to right, #b5a2df, #c7d2f3, #c7e6f6);
+    border: none;
+}
+
+#stats-section p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+/* Stats grid */
+.stats {
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+/* Individual stat items */
+.stat-item {
+    background-color: #f9f9f9;
+    
+    padding: 20px;
+    width: 160px;
+    text-align: center;
+    
+}
+
+.stat-item i {
+    font-size: 2rem;
+    color: #b5a2df;
+    margin-bottom: 10px;
+}
+
+.stat-item h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.stat-item p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Colors for each stat */
+.stat-item:nth-child(1) {
+    background-color: #f7c8c8;
+}
+
+.stat-item:nth-child(2) {
+    background-color: #cfb7dd;
+}
+
+.stat-item:nth-child(3) {
+    background-color: #b7d3eb;
+}
+
+.stat-item:nth-child(4) {
+    background-color: #b2cee5;
+}
+
+.stat-item:nth-child(5) {
+    background-color: #d2ecfa;
+}
+.p-content{
+    padding: 60px 60px;
+    display: flex;
+    gap:20px;
+}
+.p-content p{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+#stats-section a{
+    display:inline-block;
+    color:rgb(99,99,99);
+    font-size: 1.2em;
+    letter-spacing: -0.025em;
+    text-decoration: none;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    border: rgba(99, 99, 99, 0.425) solid 1px;
+    text-align: center;
+    line-height: 50px;
+  }
